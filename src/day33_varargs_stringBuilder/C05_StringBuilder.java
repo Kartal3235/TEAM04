@@ -3,7 +3,7 @@ package day33_varargs_stringBuilder;
 public class C05_StringBuilder {
     public static void main(String[] args) {
 
-        /*
+         /*
         Compare iki sb'i esit mi diye kontrol etmek icin
         ilk harften baslayarak tum karakterleri karsilastirir
         Ayni olan karakterler icin bir sey yazdirmaz
@@ -17,14 +17,11 @@ public class C05_StringBuilder {
         String str= "Ali Can";
         System.out.println(sb1.compareTo(sb2)); // 0
         // System.out.println(sb1.compareTo(str));
-
-
-        //String Builder da equals methodu String deki == gibi çalışır
-        System.out.println(sb1.equals(sb2));
-        System.out.println(sb1.equals(sb1));
-
-        System.out.println(sb1.equals(str));
+        // SB'da equals methodu String'deki == gibi calisir
+        System.out.println(sb1.equals(sb2)); // false
+        System.out.println(sb1.equals(sb1)); // true
+        System.out.println(sb1.equals(str)); // false
+        // System.out.println(sb1==str); // farkli obje turleri oldugu icin java kiyas yapmaz
     }
 }
-
 
