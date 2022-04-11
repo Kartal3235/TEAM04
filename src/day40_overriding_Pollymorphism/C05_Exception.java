@@ -14,9 +14,19 @@ public class C05_Exception {
             int sayi= 0;
             try {
                 sayi = scan.nextInt();
+                toplam+=sayi;
             } catch (InputMismatchException e) {
+
+                String hataliGiris= scan.next();
+                if (hataliGiris.equalsIgnoreCase("q")){
+
+                    break;
+                }else{
+                    System.out.println("hatalı giriş");
+                }
             }
-            toplam+=sayi;
+
         }while (toplam<500);
+        System.out.println("girdiğiniz sayıların toplamı:");
     }
 }
