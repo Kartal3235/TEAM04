@@ -3,15 +3,19 @@ package day43_carbage_abstractClass;
 public class C05_ChildOfAbstract extends C04{
 
     /*
-    Classımızı bir Abstract class ın child classı olarak belirtmek istersek
-    Java hemen class isminin altını kırmızı cizer
+     class'imizi bir abstract class'in child class'i olarak
+     belirtmek istersek
+     Java hemen class isminin altini kirmizi cizer
+     bizden
+     child class'i abstract yapmamizi veya parent class'daki abstract
+     method'lari override etmemizi ister
+     parent olan abstract class'daki concrete method'lar ise opsiyoneldir
+     onlari istersek override ederiz, istemezsek override etmeyiz
+      */
 
-    bizden
-    child classı abstract yapmamız veya parent class daki abstract methodları override etmemizi
-    ister
 
-    Parent olan abstract classdaki concrete methodlar ise opsiyoneldir.
-    onları istersek override ederiz,istemezsek override etmeyiz.
-     */
+    @Override
+    public void absmethod() {
 
+    }
 }
