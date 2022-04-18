@@ -1,4 +1,4 @@
-package day_46_iterators_Collections;
+package day46_iterators_Collections;
 
 import java.util.LinkedList;
 

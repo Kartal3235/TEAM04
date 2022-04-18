@@ -1,7 +1,6 @@
-package day_46_iterators_Collections;
+package day46_iterators_Collections;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
