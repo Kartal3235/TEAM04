@@ -20,10 +20,10 @@ public class C01_Maps {
         Bunun için keyleri önce bir set e sonrada set' in tum elementlerini bir list 'e ekledik
          */
 
-        Set<Integer> sinifKeySeti=sinifListMap.keySet();
-        List<Integer> keyList=new ArrayList<>();
+        Set<Integer> sinifKeySeti=sinifListMap.keySet();//siniflistMap de key ve valuler var//burda key'leri set' e attık
+        List<Integer> keyList=new ArrayList<>();//List oluşturduk
 
-        keyList.addAll(sinifKeySeti);
+        keyList.addAll(sinifKeySeti);// set' deki tüm key'leri list e attık
         System.out.println(keyList);
 
 

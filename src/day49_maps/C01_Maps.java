@@ -18,7 +18,7 @@ public class C01_Maps {
         list.add(10.2);
         System.out.println(list);
 
-        list.set(1,(Integer)(list.get(1))+10);
+        list.set(1,(Integer)(list.get(1))+10);//casting yaptık
 
         Map<Integer, String>sinifList=new HashMap<>();
 
