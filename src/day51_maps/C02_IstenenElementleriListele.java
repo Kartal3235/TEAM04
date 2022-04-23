@@ -2,9 +2,7 @@ package day51_maps;
 
 import day49_maps.MapOlustur;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class C02_IstenenElementleriListele {
     /*
